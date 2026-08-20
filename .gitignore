@@ -1,0 +1,48 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+coverage/
+
+# macOS
+.DS_Store
+**/__MACOSX/**
+**/._*
+*.pem
+
+# env / secrets
+.env
+.env*.local
+firebase-adminsdk.json
+*-service.json
+
+# Firebase / Google config — never commit these
+google-services.json
+GoogleService-Info.plist
+**/google-services.json
+**/GoogleService-Info.plist
+
+# generated native folders
+/ios
+/android
